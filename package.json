@@ -1,0 +1,34 @@
+{
+  "name": "@linclark/portal-cli",
+  "version": "1.0.0",
+  "description": "portal-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShawnLeo/mgt-web.git"
+  },
+  "keywords": [
+    "portal",
+    "cli"
+  ],
+  "dependencies": {
+    "ansi-regex": "^3.0.0",
+    "ansi-styles": "^3.2.0",
+    "chalk": "^2.3.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  },
+  "author": "Shawn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShawnLeo/mgt-web/issues"
+  },
+  "homepage": "https://github.com/ShawnLeo/mgt-web#readme",
+  "bin": {
+    "portal": "bin/portal.js"
+  }
+}
